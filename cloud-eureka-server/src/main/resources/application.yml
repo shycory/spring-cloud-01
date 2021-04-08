@@ -1,0 +1,25 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: cloud-eureka-server
+
+eureka:
+  instance:
+    #集群配置 改为 要部署的机器 的 域名/ip
+    hostname: localhost
+  server:
+    # 启动自我保护 true 启用,false 关闭
+    enable-self-preservation: true
+    # 清理无效节点的时间间隔
+    eviction-interval-timer-in-ms: 20000
+  client:
+    #不向配置中心配置自己
+    register-with-eureka: false
+    #表示自己是服务中心,不需要去检索服务
+    fetch-registry: false
+    service-url:
+      #集群配置 改为其他eureka服务的地址   多个则用  ,  隔开
+      defaultZone: http://localhost:7001/eureka
+

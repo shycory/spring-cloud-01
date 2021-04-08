@@ -1,0 +1,27 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-consumer-order
+
+
+eureka:
+  client:
+    #不向配置中心配置自己
+    register-with-eureka: true
+    #表示自己是服务中心,不需要去检索服务
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    # 注册到服务中心的名字,如果不想显示 spring.application.name的值 就手动配一个
+    instance-id: order80
+    # 鼠标 移动到服务名称时,浏览器左下角显示ip地址
+    prefer-ip-address: true
+
+    # 最长等待时间,超出则干掉
+    lease-expiration-duration-in-seconds: 90
+    # 发送心跳的时间间隔 秒
+    lease-renewal-interval-in-seconds: 30
+
