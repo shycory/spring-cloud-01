@@ -17,6 +17,7 @@ import java.util.List;
 @Slf4j
 public class OrderController {
 
+
     /*服务发现*/
     @Resource
     private DiscoveryClient discoveryClient;
