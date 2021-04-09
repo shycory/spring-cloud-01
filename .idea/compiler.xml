@@ -11,8 +11,12 @@
         <module name="cloudconsumerorderapi" />
         <module name="cloud-common" />
         <module name="cloudproviderpaymentapi" />
+        <module name="cloud-eureka-server" />
+        <module name="cloud-provider-payment-api" />
         <module name="cloud-consumer-order" />
         <module name="cloud-provider-payment" />
+        <module name="cloud-consumer-order-api" />
+        <module name="cloudproviderpaymentzookeeper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

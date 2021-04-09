@@ -11,6 +11,7 @@
         <module>cloud-provider-payment-api</module>
         <module>cloud-consumer-order-api</module>
         <module>cloud-eureka-server</module>
+        <module>cloud-provider-payment-zookeeper</module>
     </modules>
 
     <groupId>org.sunyh.learn</groupId>
