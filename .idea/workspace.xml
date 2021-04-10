@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a3e5a30-2eb1-4d89-9b50-017e474401cf" name="Default Changelist" comment="" />
+    <list default="true" id="1a3e5a30-2eb1-4d89-9b50-017e474401cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/org/sunyh/learncloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/org/sunyh/learncloud/controller/OrderController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -42,6 +52,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1qs1l1pGNf66h7EL7xrXHNUDT2I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -241,6 +252,8 @@
       <list>
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Application.GeneratorConfig" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Application.GeneratorConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -257,17 +270,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@75a4b332" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@75a4b332" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@453e0c60" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
           <option name="viewType" value="contributor" />
@@ -301,11 +304,37 @@
       <workItem from="1617875515218" duration="852000" />
       <workItem from="1617876383212" duration="46000" />
       <workItem from="1617876446051" duration="11693000" />
-      <workItem from="1617888563574" duration="6695000" />
+      <workItem from="1617888563574" duration="7785000" />
+      <workItem from="1618047514419" duration="252000" />
     </task>
+    <task id="LOCAL-00001" summary="dev">
+      <created>1617896738482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617896738482</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev" />
   </component>
 </project>
